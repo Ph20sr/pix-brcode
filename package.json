@@ -1,0 +1,17 @@
+{
+  "name": "pix-brcode",
+  "version": "1.0.0",
+  "description": "Gera e lê o Pix copia e cola (BR Code) conforme o manual do Banco Central: CRC16, chaves normalizadas e detecção de código adulterado. Zero dependências.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "types": "./src/index.d.ts",
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "keywords": ["pix", "brcode", "copia-e-cola", "qrcode", "emv", "banco-central", "pagamentos"],
+  "license": "MIT"
+}
